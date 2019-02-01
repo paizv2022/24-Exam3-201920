@@ -277,7 +277,7 @@ def problem4(seq_of_seq, n):
     # -------------------------------------------------------------------------
     for k in range(len(seq_of_seq)):
         for j in range(len(seq_of_seq[k])):
-            if seq_of_seq[k][j] > n and is_prime(seq_of_seq[k][j]) is True:
+            if seq_of_seq[k][j] > n and is_prime(seq_of_seq[k][j]):
                 return seq_of_seq[k][j]
     return -1
 
