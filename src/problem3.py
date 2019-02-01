@@ -185,12 +185,12 @@ def problem3(sequence):
     # DONE: 3. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
-    total = 0
+    num = 0
     for k in range(len(sequence)):
         if is_prime(sequence[k]) is True:
             sequence[k] = sequence[k] + 3
-            total = total + 1
-    return total
+            num = num + 1
+    return num
 
 
 ###############################################################################
